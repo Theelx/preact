@@ -4,7 +4,7 @@ import { JSXInternal } from '../../src/jsx';
 import * as _Suspense from './suspense';
 import * as _SuspenseList from './suspense-list';
 
-// export default React;
+export default React;
 export = React;
 export as namespace React;
 declare namespace React {
