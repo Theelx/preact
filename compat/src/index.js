@@ -118,7 +118,6 @@ const flushSync = (callback, arg) => callback(arg);
 const StrictMode = Fragment;
 
 Preact.default = Preact;
-export default Preact;
 
 export * from 'preact/hooks';
 export {
@@ -152,6 +151,7 @@ export {
 
 // React copies the named exports to the default one.
 export default {
+	Preact,
 	useState,
 	useReducer,
 	useEffect,
