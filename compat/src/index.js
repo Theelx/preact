@@ -117,6 +117,9 @@ const flushSync = (callback, arg) => callback(arg);
  */
 const StrictMode = Fragment;
 
+Preact.default = Preact;
+export default Preact;
+
 export * from 'preact/hooks';
 export {
 	version,
